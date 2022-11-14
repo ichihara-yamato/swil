@@ -1,0 +1,18 @@
+{
+    "name": "swil/client",
+    "description": "Scraping to grow with the help of others.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Swil\\Client\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "require-dev": {
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
