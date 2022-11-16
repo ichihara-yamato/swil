@@ -12,9 +12,10 @@
     "prefer-stable": false,
     "require": {
         "php": "^8.0",
-        "chrome-php/chrome": "^1.7.1",
-        "fabpot/goutte": "^3.1.0",
-        "scotteh/php-dom-wrapper": "^2.0.3"
+        "chrome-php/chrome": "^1.7",
+        "fabpot/goutte": "^4.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "scotteh/php-dom-wrapper": "^2.0"
     },
     "require-dev": {
     }
