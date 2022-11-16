@@ -1,5 +1,5 @@
 <?php
-namespace SwimCrawl\Client;
+namespace Swil\Client;
 
 /*
  * This file is part of Swim PHP.
@@ -9,16 +9,26 @@ namespace SwimCrawl\Client;
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+
 use DOMWrap\Document as Document;
 use HeadlessChromium\BrowserFactory;
 use Goutte\Client;
 use Symfony\Component\HttpClient\HttpClient;
+
 
 /**
  * Get user agent class
  */
 class Crawl
 {
+    /**
+     * Crawl constructor.
+     *
+     */
+    public function __construct()
+    {
+    }
+
     private function getUA(){
         $list = [
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',

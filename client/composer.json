@@ -10,9 +10,13 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": false,
-    "require-dev": {
-    },
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "chrome-php/chrome": "^1.7",
+        "fabpot/goutte": "^4.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "scotteh/php-dom-wrapper": "^2.0"
+    },
+    "require-dev": {
     }
 }
